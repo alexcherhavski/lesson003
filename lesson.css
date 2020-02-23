@@ -1,0 +1,50 @@
+* {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0px 70px;
+    margin-top: 60px;
+}
+.title {
+    padding-bottom: 33px;
+    font-weight: 900;
+    color: #666d89;
+}
+.info {
+    color: #767e9e;
+    font-size: 18px;
+    font-weight: 300;
+}
+.big-block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 39px;
+}
+.person-info > h3 {
+    color: #666d89;
+    margin-top: 15px;
+}
+.person-info > p {
+    color: #767e9e;
+    margin-top: 18px;
+}
+.person-info > i {
+    color: #666d89;
+    margin-top: 25px;
+    margin-right: 8px;
+}
+.person-info {
+    width: 300px;
+}
+@media (max-width: 920px) {
+    .big-block {
+        display: block;
+    }
+    .person-info {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
